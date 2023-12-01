@@ -1,12 +1,26 @@
-html, body {
-    background-color: #ebe3e3;
+* {
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
+body {
+    min-height: 100vh;
+    background: url("assets/ishan-seefromthesky-TobZaa8ZwI4-unsplash.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-h2 {
-    text-align: center;
-    margin: 25px;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
