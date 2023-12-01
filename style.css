@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: "poppins", sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
     padding: 0;
 }
@@ -12,7 +12,7 @@ body {
     background-position: center;
 }
 
-.header {
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -23,4 +23,19 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
 }
