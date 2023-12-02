@@ -12,6 +12,10 @@ body {
     background-position: center;
 }
 
+body::after {
+
+}
+
 header {
     position: fixed;
     top: 0;
@@ -39,6 +43,7 @@ header {
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
+
 }
 
 .navbar a::before {
@@ -48,7 +53,7 @@ header {
     left: 0;
     width: 0;
     height: 2px;
-    background: #fff;
+    background: #0a0a0a;
     transition: .3s;
 }
 
@@ -63,9 +68,16 @@ header {
 
 .pic {
     width: 300px;
-    height: 500px;
+    height: 300px;
     background-image: url(assets/mikhail-vasilyev-gGC63oug3iY-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 25px;
+    margin: 40px;
+}
+
+.pic:hover {
+   
+    background-image: url(assets/aarn-giri-3lGi0BXJ1W0-unsplash.jpg);
 }
